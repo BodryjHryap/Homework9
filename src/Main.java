@@ -24,14 +24,14 @@ public class Main {
         for (int element : arr) {
             sum += element;
         }
-        System.out.println("Сумма трат за месяц составила " + sum + " рублей");
+        System.out.println("Сумма трат за месяц составила: " + sum + " рублей");
     }
 
     public static void task2() {
         System.out.println("Задание 2");
         int[] arr = generateRandomArray();
         Arrays.sort(arr);
-        System.out.println("Минимальная сумма трат за день составила " + arr[0] + " рублей. Максимальная сумма трат за день составила " + arr[arr.length - 1] + " рублей");
+        System.out.println("Минимальная сумма трат за день составила: " + arr[0] + " рублей. Максимальная сумма трат за день составила " + arr[arr.length - 1] + " рублей");
     }
 
     public static void task3() {
@@ -42,7 +42,7 @@ public class Main {
             sum += element;
         }
         double averagePayout = sum / arr.length;
-        System.out.println("Средняя сумма трат за месяц составила " + averagePayout + " рублей");
+        System.out.println("Средняя сумма трат за месяц составила: " + averagePayout + " рублей");
     }
 
     public static void task4() {
